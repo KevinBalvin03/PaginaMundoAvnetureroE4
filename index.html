@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Aventurero</title>
+    <link rel="icon" href="/img/MundoAventurero.jpg">
+    <link rel="stylesheet" href="/css/styleIndex.css">
+</head>
+
+<body class="flexColumn">
+
+    <header class="flexColumn">
+        <div class="flexCenter" id="divHeaderUp">
+            <div class="flexCenter" id="divHeaderUpLeft">
+                <a href="/index.html">
+                    <img src="/img/MundoAventurero.jpg" alt="MundoAventurero.jpg">
+                </a>
+                <p>Mundo Aventurero</p>
+            </div>
+            <div class="flexCenter" id="divHeaderUpRight">
+                <div class="flexCenter"><img id="banderaRegion" src="/img/banderaColombiana.png"
+                        alt="RegionColombia.png">
+                    <p>ESPAÑOL - COP</p>
+                </div>
+                <div>
+                    <p> 📞 Para reservar: 3128872651</p>
+                </div>
+                <div><a class="indexLinkA" href="/quienesSomos.html">Quienes somos</a> </div>
+            </div>
+        </div>
+        <div class="flexCenter" id="divHeaderButtom">
+            <div class="flexCenter" id="divHeaderButtomleft">
+                <p>Viajes a Cartagena | Bogota | San Andres | Armenia | </p>
+                <a class="indexLinkA" href="/viajes.html"> Registra aqui</a>
+            </div>
+            <div class="flexCenter" id="divHeaderButtomRight">
+                <a href="/iniSesion.html">
+                    <img src="/img/imgInicioSesion.png" alt="IniciarSesion.png">
+                </a>
+                <a href="/registro.html">
+                    <img src="/img/imgRegister.png" alt="Registrarse.png">
+                </a>
+                <a href="/index.html">
+                    <img src="/img/imfIndex.png" alt="Inicio.png">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="flexColumn" id="divMainPrimero">
+            <div id="contenedorMainPrimeroUp">
+                <h2>Viajando por colombia</h2>
+                <div id="divMainPrimeroUp">
+
+                    <form class="flexCenter">
+                        <div>
+                            <label for="origen">Lugar de salida:</label>
+                            <input type="text" id="origen" name="origen" value="Medellín" readonly>
+                        </div>
+
+                        <div>
+                            <label for="destino">Lugar de destino:</label>
+                            <select id="destino" name="destino" required>
+                                <option value="">Selecciona un destino</option>
+                                <option value="cartagena">Cartagena</option>
+                                <option value="bogota">Bogotá</option>
+                                <option value="san_andres">San Andrés</option>
+                                <option value="armenia">Armenia</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="fecha_salida">Fecha de salida:</label>
+                            <input type="date" id="fecha_salida" name="fecha_salida" required>
+                        </div>
+
+                        <button type="submit">Buscar viaje</button>
+                    </form>
+                </div>
+
+                <p>Flexibilidad en cambios | Paga a cuotas | Cancelación GRATIS</p>
+            </div>
+        </div>
+        <div class="flexColumn" id="divTablaMain">
+            <h2>Prepara las maletas</h2>
+            <div class="flexCenter">
+                <div class="flexCenter" id="divTabla">
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="producto">
+                                    <strong>Cartagena</strong>
+                                    <img class="imgTablaDestino" src="/img/destinoCartagena.jpg" alt="Cartagena">
+                                    <em>
+                                        <p>Beneficios:</p>
+                                    </em>
+                                    <div class="beneficios">
+                                        <p>• Playa privada vista al mar</p>
+                                        <p>• Increíble gastronomía</p>
+                                        <p>• Jet Ski</p>
+                                        <p>• Visitar islas aledañas</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="producto">
+                                    <strong>Bogotá</strong>
+                                    <img class="imgTablaDestino" src="/img/destinoBogota.jpg" alt="Bogotá">
+                                    <em>
+                                        <p>Beneficios:</p>
+                                    </em>
+                                    <div class="beneficios">
+                                        <p>• Habitaciones cómodas y amuebladas</p>
+                                        <p>• Atracciones turísticas</p>
+                                        <p>• Visita Cerro Monserrate</p>
+                                        <p>• Visitar zonas emblemáticas</p>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="producto">
+                                    <strong>San Andrés</strong>
+                                    <img class="imgTablaDestino" src="/img/destinoSanAndres.jpg" alt="San Andrés">
+                                    <em>
+                                        <p>Beneficios:</p>
+                                    </em>
+                                    <div class="beneficios">
+                                        <p>• Isla privada en mar cristalino</p>
+                                        <p>• Acceso al acuario Haynes Cay</p>
+                                        <p>• Visitar el mar de los siete colores</p>
+                                        <p>• Adentrarse en la cueva de Morgan</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="producto">
+                                    <strong>Armenia</strong>
+                                    <img class="imgTablaDestino" src="/img/destinoArmenia.jpg" alt="Armenia">
+                                    <em>
+                                        <p>Beneficios:</p>
+                                    </em>
+                                    <div class="beneficios">
+                                        <p>• Habitaciones cómodas y amuebladas</p>
+                                        <p>• Visitar el Valle de Cocora</p>
+                                        <p>• Acceso al Parque Nacional del Café</p>
+                                        <p>• Disfrute de los termales de Santa Rosa</p>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="producto">
+                                    <strong>Medellín</strong>
+                                    <img class="imgTablaDestino" src="/img/destinoMedellin.jpg" alt="Medellín">
+                                    <em>
+                                        <p>Beneficios:</p>
+                                    </em>
+                                    <div class="beneficios">
+                                        <p>• Clima primaveral todo el año</p>
+                                        <p>• Recorrido en metrocable por la ciudad</p>
+                                        <p>• Visita al Pueblito Paisa</p>
+                                        <p>• Tour por la Comuna 13</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td></td>
+                        </tr>
+
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div id="divfoot">
+            <div id="footsideleft">
+                <h3>Información de Contacto</h3>
+                <p>Mundo Aventurero S.A.S.</p>
+                <p>📍 Dirección: Carrera 45 #15-22, Medellin, Colombia</p>
+                <p>☎️ Teléfono fijo: (601) 312 5678</p>
+                <p>📱 Celular / WhatsApp: +57 310 456 7890</p>
+                <p>✉️ Correo corporativo: contacto@mundoaventurero.com.co</p>
+                <p>🕒 Horario de atención: Lunes a Viernes de 6:00 a.m. a 5:00 p.m.</p>
+            </div>
+            <div id="footsideright">
+                <h3>Redes Sociales</h3>
+                <div id="divRedesSociales">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img class="imgFooterRedes" src="/img/Yfacebook1.png" alt="FacebookLogo">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img class="imgFooterRedes" src="/img/Yinstagram.png" alt="InstagramLogo">
+                    </a>
+                    <a href="https://x.com/" target="_blank">
+                        <img class="imgFooterRedes" src="/img/Yxlogo.webp" alt="XLogo">
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
